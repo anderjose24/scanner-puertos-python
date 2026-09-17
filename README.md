@@ -87,5 +87,3 @@ Esta herramienta tiene fines académicos y educativos. Debe utilizarse exclusiva
 - **Responsable de organización del repositorio GitHub:** Anderson Jose Vega Guillin.
 - **Responsable del desarrollo técnico:** Alex Sorely Bahamonde Sánchez.
 - **Responsable del manual de uso:** Pamela del Rocío Merizalde Ortiz.
-
-Anderson organiza el repositorio, prepara el README e integra los aportes del grupo. El manual recibido se adaptó con su autorización para corresponder al código seleccionado. Esta integración no atribuye a Anderson el desarrollo del programa ni la autoría original del manual.
