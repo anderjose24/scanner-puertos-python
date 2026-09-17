@@ -87,15 +87,23 @@ Un puerto abierto indica que se pudo establecer una conexión TCP durante la pru
 
 ## 9. Capturas de funcionamiento
 
-**Pendiente de incorporar capturas reales de `scanner_puertos.py`.** Las seis capturas anteriores corresponden a `escaneo.py` y se conservan por separado; no se presentan como evidencia de esta versión.
+Las siguientes capturas reales fueron proporcionadas por Anderson durante la ejecución de `scanner_puertos.py` en su propio equipo. Se conservan sin alteraciones.
 
-En una ejecución autorizada, capturar:
+### Inicio de la aplicación
 
-1. El comando de inicio, el título y la solicitud de IP.
-2. La dirección y el rango ingresados, junto con el comienzo del escaneo.
-3. El resumen final, incluidos los puertos encontrados o la indicación de ausencia de resultados.
+![Inicio del escáner y solicitud de dirección IP](capturas/inicio.png)
 
-Guardar las imágenes en una carpeta `capturas/` e incorporar sus enlaces en este apartado cuando existan. No cambiar textos ni resultados de las capturas. La captura de GitHub es una evidencia diferente y se realiza después de publicar el repositorio.
+Figura 1. Ejecución del programa y solicitud de la dirección IP.
+
+### Entradas y resumen de resultados
+
+![Dirección, rango y resumen del escaneo local](capturas/resultados.png)
+
+Figura 2. Escaneo sobre el propio equipo y resumen final.
+
+La captura muestra la dirección `127.0.0.1`, el rango del 1 al 100, 100 puertos analizados, 0 puertos abiertos y un tiempo de 50,97 segundos. El programa indica que no encontró puertos abiertos en ese rango. Esto no permite afirmar que todos estén cerrados ni que no existan puertos abiertos fuera del rango analizado.
+
+Estas imágenes documentan el uso del programa; no sustituyen la prueba experimental que corresponde a la integrante responsable. La evidencia del repositorio GitHub se entrega por separado.
 
 ## 10. Uso responsable
 

@@ -4,7 +4,7 @@
 
 Aplicación básica desarrollada en Python para escanear puertos TCP de equipos autorizados e identificar puertos abiertos. Corresponde a una práctica académica grupal de Seguridad Informática de la Universidad Estatal de Milagro (UNEMI).
 
-El código y el manual están integrados. Queda pendiente incorporar capturas reales del funcionamiento de esta versión; las imágenes del programa anterior se conservan por separado.
+El código y el manual están integrados. El manual incluye capturas reales del inicio y de los resultados de esta versión, proporcionadas durante una ejecución sobre el propio equipo.
 
 ## Objetivo
 
@@ -26,7 +26,10 @@ scanner-puertos-python/
 │
 ├── scanner_puertos.py
 ├── README.md
-└── MANUAL_USO.md
+├── MANUAL_USO.md
+└── capturas/
+    ├── inicio.png
+    └── resultados.png
 ```
 
 - `scanner_puertos.py`: código principal del escáner TCP entregado por el responsable técnico y conservado sin modificaciones.
@@ -68,7 +71,7 @@ En Windows también puede utilizarse `py -3 scanner_puertos.py` si el lanzador e
 
 ## Manual de uso
 
-Consultar [MANUAL_USO.md](MANUAL_USO.md) para conocer el procedimiento, la interpretación de resultados y las capturas pendientes.
+Consultar [MANUAL_USO.md](MANUAL_USO.md) para conocer el procedimiento, la interpretación de resultados y las capturas de funcionamiento.
 
 ## Uso responsable
 
